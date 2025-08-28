@@ -1,0 +1,71 @@
+# vApp Submission: Proof ID Finance
+
+## Verification
+```yaml
+github_username: "doctors-crypto"
+discord_id: "844800666303332392"
+timestamp: "2025-01-15"
+```
+
+## Developer
+- **Name**: doctors crypto
+- **GitHub**: @doctors-crypto
+- **Discord**: mhytical_wolf
+- **Experience**: Brief background
+
+## Project
+
+### Name & Category
+Project: ProofID Finance
+Category: Identity / DeFi
+
+### Description
+Many people in the crypto space lack a secure way to prove their identity, reputation, or creditworthiness without exposing their entire personal data. ProofID Finance is a vApp that enables users to prove their reputation & eligibility (such as credit score, on-chain activity, or asset ownership) using zero-knowledge proofs (ZK) powered by the Soundness Layer.
+Users can:
+Prove loan eligibility without revealing their entire financial history.
+Use decentralized identity (DID) that is reusable across dApps.
+Access DeFi services while preserving privacy.
+### SL Integration  
+ZK-proof generation → users can prove claims without disclosing raw data.
+On-chain proof verification → smart contracts only accept valid proofs.
+Composability → proofs can be reused across multiple DeFi applications.
+
+## Technical
+Architecture
+Frontend (Web dApp) → User interface for identity registration, proof generation, loan application.
+Backend API → Stores metadata (non-sensitive), communicates with SL to request proofs.
+Smart Contracts → Handle on-chain proof verification and provide DeFi mechanisms (lending/borrowing).
+Soundness Layer → Generates & verifies cryptographic proofs.
+  
+### Stack
+Frontend: React + Tailwind
+Backend: Node.js (Express)
+Blockchain: Soundness Layer + Ethereum / L2
+Storage: WALRUS for identity, IPFS for encrypted documents, PostgreSQL for metadata
+
+### Features
+Decentralized Identity (DID) → Users can have an on-chain identity with private data control.
+ZK Credit Proofs → Proofs that users meet loan requirements without revealing all financial details.
+Private DeFi Access → Lending/borrowing based on proofs instead of traditional KYC.
+
+## Timeline
+
+### PoC (2-4 weeks)
+Basic identity registry smart contract
+Soundness Layer integration for simple proofs
+Simple UI for identity registration
+
+### MVP (4-8 weeks)  
+Implement ZK credit proofs
+Lending/borrowing smart contracts connected with proofs
+Production-ready dApp + user testing
+
+## Innovation
+Privacy + Trust: Users can prove reputation without exposing raw personal data.
+Interoperable: Proofs generated with SL can be reused across DeFi protocols.
+Inclusive Finance: Opens financial access for users who would normally fail traditional KYC.
+
+## Contact
+Telegram: @tedcru_z
+x : https://x.com/doctorincryptoo
+discord : mhytical_wolf
